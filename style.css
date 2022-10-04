@@ -1,0 +1,121 @@
+.vertical-nav {
+  background-color:darkslategrey;
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+}
+
+.right-page {
+  margin-left: 40rem;
+  margin-right: 23rem;
+}
+
+body{
+  background: linear-gradient(transparent, bisque 23rem),
+  url("images/cover.png") no-repeat;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 3rem;
+  background-size: 100% ;
+  
+}
+
+.nav ul {
+  list-style: none;
+  margin-top: 15rem;
+}
+.nav ul li {
+  position: relative;
+  margin: 3rem 0;
+}
+.nav ul li a {
+  line-height: 5em;
+
+  color: rgba(255, 255, 255, 0.35);
+  display: block;
+  transition: all ease-out 300ms;
+}
+
+.nav ul li:hover a {
+  color: rgba(255, 255, 255, 0.75);
+}
+.nav ul li:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.2em;
+  background-color: rgb(58, 101, 58);
+  left: 0;
+  bottom: 0;
+  opacity: 0.2;
+}
+
+h1.header {
+  color:rgb(0, 0, 0);
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+h1.headerbig {
+  color:rgb(0, 0, 0);
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 900;
+}
+h1.para {
+  color:rgb(60, 59, 59);
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+h2.header {
+  color:rgb(60, 59, 59);
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+h2.menu {
+  color:bisque;
+  font-family:'Playfair Display', serif;
+  font-size: 20px;
+}
+#textspace1 {
+  border-radius: 25px;
+  background:rgba(255, 255, 255, 0.35);
+  border: 2px solid darksalmon;
+  padding: 20px; 
+  width: 60rem;
+  height: 9rem;  
+}
+#textspace2 {
+  border-radius: 25px;
+  background:rgba(255, 255, 255, 0.35);
+  border: 2px solid darksalmon;
+  padding: 20px; 
+  width: 60rem;
+  height: 7.5rem;  
+}
+#textspace3 {
+  border-radius: 25px;
+  background:rgba(255, 255, 255, 0.35);
+  border: 2px solid darksalmon;
+  padding: 20px; 
+  width: 60rem;
+  height: 6.5rem;  
+}
+#textspace4 {
+  border-radius: 25px;
+  background:rgba(255, 255, 255, 0.35);
+  border: 2px solid darksalmon;
+  padding: 20px; 
+  width: 60rem;
+  height: 6.5rem;  
+}
+#textspace5 {
+  border-radius: 25px;
+  background:rgba(255, 255, 255, 0.35);
+  border: 2px solid darksalmon;
+  padding: 20px; 
+  width: 60rem;
+  height: 7.5rem;  
+}
